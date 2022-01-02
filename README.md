@@ -52,7 +52,7 @@ Looking at Lot 3, we see a p-value of .04, which is below the .05 threshold for 
 
 Much like our discussion of the summary statistics above, there is clearly something off about Lot 3 and we should investigate what is causing these irregularities.
 
-##### Study Design: MechaCar vs Competition
+Study Design: MechaCar vs Competition
 For future studies, we want to compare MechaCar against the competition to see where MechaCar performs better. Here we began thinking about what features consumers find important when purchasing a vehicle. Consumers are focused on safety and carrying capacity, especially as more types of vehicles are being used to pick up furniture or other goods.
 
 **Metrics**
