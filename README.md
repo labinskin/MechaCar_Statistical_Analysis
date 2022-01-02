@@ -25,6 +25,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
   - This linear model has an r-squared of .7149, indicating that it predicts the mpg of MechaCar accurately 71% of the time. This is a fairly strong predictive percentage, though there is a chance we could revise our model to strengthen the predictive power.
 
 ##### Summary Statistics on Suspension Coils
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20Summary%20Table.png)
 
 ![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Lot%20Summary%20Table.png)
 
