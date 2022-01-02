@@ -53,4 +53,28 @@ Looking at Lot 3, we see a p-value of .04, which is below the .05 threshold for 
 Much like our discussion of the summary statistics above, there is clearly something off about Lot 3 and we should investigate what is causing these irregularities.
 
 ##### Study Design: MechaCar vs Competition
+For future studies, we want to compare MechaCar against the competition to see where MechaCar performs better. Here we began thinking about what features consumers find important when purchasing a vehicle. Consumers are focused on safety and carrying capacity, especially as more types of vehicles are being used to pick up furniture or other goods.
 
+**Metrics**
+
+The two metrics that we would be most interested in examining and testing are:
+
+Carrying Capacity
+
+Safety
+
+**Null and Alternative Hypothesis**
+
+H0: There is no statistical significant difference on defined metrics between MechaCar and competition, indicating that MechaCar's carrying and capacity and safety are similar to its' competition.
+
+Ha: The is statistical significant difference on defined metrics between MecharCar and competition, indicating that MechaCar is either statistically above or below the competition.
+
+We would continue to use the significance level of .05 in our testing.
+
+**Statistical Tests**
+
+The statistical test used would be a two-tail T-Test.
+
+**Data Needed**
+
+The data we would need to gather is the safety records and carrying capacity of ourselves and our competitors.
