@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-##### Background
+#### Background
 
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
@@ -11,7 +11,7 @@ Collect summary statistics on the pounds per square inch (PSI) of the suspension
 Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
-##### Linear Regression to Predict MPG
+#### Linear Regression to Predict MPG
 
 ![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Initial%20Summary.png)
 
@@ -24,7 +24,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   - This linear model has an r-squared of .7149, indicating that it predicts the mpg of MechaCar accurately 71% of the time. This is a fairly strong predictive percentage, though there is a chance we could revise our model to strengthen the predictive power.
 
-##### Summary Statistics on Suspension Coils
+#### Summary Statistics on Suspension Coils
 ![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20Summary%20Table.png)
 
 ![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Lot%20Summary%20Table.png)
@@ -34,7 +34,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
   - However, when looking at the three lots individually, we find that there is a problem with lot 3. Lot 1 and Lot 2 fall well below the 100 PSI threshold (.98 and 7.47 respectively). But Lot 3 has a variance of 170.29, well above the 100 PSI variance threshold. Lot 3 also throws off the variance significantly for all of the lots combined.
 
 
-##### T-Tests on Suspension Coils
+#### T-Tests on Suspension Coils
 ![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20T_Test.png)
 Examining the t-tests of all the coils, we see we have a p-value of .06, which is above the .05 threshold for level of significance. This indicates that there is not enough evidence to support rejecting the null hypothesis. 
 
@@ -52,7 +52,8 @@ Looking at Lot 3, we see a p-value of .04, which is below the .05 threshold for 
 
 Much like our discussion of the summary statistics above, there is clearly something off about Lot 3 and we should investigate what is causing these irregularities.
 
-Study Design: MechaCar vs Competition
+### Study Design: MechaCar vs Competition
+
 For future studies, we want to compare MechaCar against the competition to see where MechaCar performs better. Here we began thinking about what features consumers find important when purchasing a vehicle. Consumers are focused on safety and carrying capacity, especially as more types of vehicles are being used to pick up furniture or other goods.
 
 **Metrics**
