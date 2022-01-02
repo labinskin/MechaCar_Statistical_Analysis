@@ -13,7 +13,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ##### Linear Regression to Predict MPG
 
-![]()
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Initial%20Summary.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - The variables that provided a non-random amount of variance were vehicle length and ground clearance. They had p-values of p-values of 2.6x10-12 and 5.21x10-8, respectively. Vehicle weight, spoiler angle, and AWD all had p-values that indicated possible random effects. 
@@ -26,7 +26,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ##### Summary Statistics on Suspension Coils
 
-![]()
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Lot%20Summary%20Table.png)
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
   - Yes and no. Overall, all the variance of PSI for all three lots is 62.29, well below the 100 PSI variance dictate. 
@@ -34,18 +34,18 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 
 ##### T-Tests on Suspension Coils
-
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20T_Test.png)
 Examining the t-tests of all the coils, we see we have a p-value of .06, which is above the .05 threshold for level of significance. This indicates that there is not enough evidence to support rejecting the null hypothesis. 
 
-![]()
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Lot1%20T_Test.png)
 
 Looking at Lot 1, we see the p-value of 1, which is well above the .05 threshold. Indicating again that we do not have sufficient evidence to reject our null hypothesis, and therefore we fail to reject our null hypothesis and that there is no statistical difference between the sample mean and presumed population mean. 
 
-![]()
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Lot2%20T_Test.png)
 
 Looking at Lot 2, we see a p-value of .61, again well above the .05 threshold for level of significance. Indicating again that we do not have sufficient evidence to reject our null hypothesis, and therefore we fail to reject our null hypothesis and that there is no statistical difference between the sample mean and presumed population mean. 
 
-![]()
+![](https://github.com/labinskin/MechaCar_Statistical_Analysis/blob/main/Resources/Lot3%20T_Test.png)
 
 Looking at Lot 3, we see a p-value of .04, which is below the .05 threshold for level of significance. In this case, there is sufficient statistical evidence that our null hypothesis is not true, and therefore we can reject our null hypothesis.
 
