@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis--Labinski
+# MechaCar_Statistical_Analysis
 
 #### Background
 
